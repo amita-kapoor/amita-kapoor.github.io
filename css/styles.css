@@ -1,0 +1,57 @@
+.books > h1,
+.book_list {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.book_list {
+    background: right/contain content-box border-box no-repeat
+    url('/media/examples/rain.svg') white;
+}
+
+.book_list > h2,
+.book_list > p {
+    margin: .2rem;
+    font-size: 1rem;
+}
+
+header {
+    font: bold calc(.025 * (100vw)) 'Arial', sans-serif;
+}
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+}
+.main > h1 {
+    font: bold calc(.020 * (100vw)) 'Arial', sans-serif;
+}
+
+<!-- for responsive images -->
+.responsive {
+    width: 100%;
+    height: auto;
+}
+.book_descr {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+.book_descr > p {
+    margin: .01rem;
+}
+
